@@ -57,18 +57,18 @@ public class App {
         return res;
     }
    
-    private static <str> int result(int p, str m, int k) {
+    private static <str> int result(int p, String m, int k) {
         int res = 0;
-        if(m == "+"){
+        if(m.equals("+")){
             res = p+k;
         }
-        if(m == "-"){
+        if(m.equals( "-")){
             res = p-k;
         }
-        if(m == "/"){
+        if(m.equals("/")){
             res = p/k;
         }
-        if(m == "*"){
+        if(m.equals("*")){
             res = p*k;
         }
 
